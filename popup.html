@@ -1,10 +1,31 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="button.css">
+    <link rel="stylesheet" href="popup.css">
   </head>
   <body>
-    <button id="changeColor"></button>
+    <div class="container">
+    <div class="box">
+      <div id="instruction">Press any key to get the event keycode</div>
+      <div id="keycode"></div>
+    </div>
+    <div>
+      <div id="more-info">
+        <div class="card">
+          <div class="title">key</div>
+          <div class="value" id="key"></div>
+        </div>
+        <div class="card">
+          <div class="title">code</div>
+          <div class="value" id="code"></div>
+        </div>
+        <div class="card">
+          <div class="title">location</div>
+          <div class="value" id="location"></div>
+        </div>
+      </div>
+    </div>
+    </div>
     <script src="popup.js"></script>
   </body>
 </html>

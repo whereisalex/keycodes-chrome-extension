@@ -1,23 +1,18 @@
 {
     "name": "Keycodes",
-    "description": "Build an Extension!",
+    "description": "Quickly get the JS event keycode",
     "version": "1.0",
     "manifest_version": 3,
-    "author": "Alexandra <alexandra@geier.lt>",
+    "author": "Alexandra Geier <alexandra@geier.lt>",
     "license": "MIT",
-    "background": {
-        "service_worker": "background.js"
-      },
-      "options_page": "options.html",
-      "permissions": ["storage", "activeTab", "scripting"],
-      "action": {
-        "default_popup": "popup.html",
-        "default_icon": {
-            "16": "/images/get_started16.png",
-            "32": "/images/get_started32.png",
-            "48": "/images/get_started48.png",
-            "128": "/images/get_started128.png"
-          }
+    "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+        "16": "/images/get_started16.png",
+        "32": "/images/get_started32.png",
+        "48": "/images/get_started48.png",
+        "128": "/images/get_started128.png"
+        }
       },
       "icons": {
         "16": "/images/get_started16.png",

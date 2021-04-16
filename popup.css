@@ -1,0 +1,53 @@
+ :root {
+  --orange: #ffe4c4;
+  --white: #ffffff;
+  --grey: #eeeeee;
+  --border-radius: 4px;
+  }
+  
+body {
+  background-color: var(--orange);
+} 
+
+.container {
+  height: 110px;
+  width: 160px;
+}
+
+.box {
+  background-color: var(--white);
+  border-radius: var(--border-radius);
+  margin-bottom: 8px;
+  padding: 8px 4px;
+  text-align: center;
+}
+
+.card {
+  width: 30%;
+  text-align: center;
+}
+
+.title {
+  background-color: var(--grey);
+  border-top-left-radius: var(--border-radius);
+  border-top-right-radius: var(--border-radius);
+  padding: 2px;
+}
+
+.value {
+  background-color: var(--white);
+  border-bottom-left-radius: var(--border-radius);
+  border-bottom-right-radius: var(--border-radius);
+  padding: 2px;
+  overflow: hidden;
+}
+
+#keycode {
+ font-size: 40px;
+ text-align: center;
+}
+
+#more-info{
+  display: none;
+  justify-content: space-between;
+}
