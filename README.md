@@ -1,5 +1,4 @@
 # Keycodes Chrome Extension
 Chrome extension to quickly retrieve the JavaScript event keycodes.
 
-![screenshot](/images/screenshot.png =200x)
-
+<img src="./images/screenshot.png" alt="screenshot" width="200"/>
